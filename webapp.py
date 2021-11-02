@@ -11,10 +11,7 @@ app = flask.Flask(__name__)
 mongodb_client = PyMongo(app, uri="mongodb://localhost:27017/v102news")
 db = mongodb_client.db
 
-'''@app.route('/')
-def main():
-    articles = db.selectAll("news")
-    return articles'''
+
 
 @app.route('/')
 def main():
