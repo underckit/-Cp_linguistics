@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webapp</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="header">
+    <h1>Контрольная работа по компьютерной лингвистике. </h1>
+</header>
+
+<main>
+    <h2 class="header">Новости:</h2>
+    <div class="articles">
+
+        {% for message in news %}
+        <div class="news">
+            <a href={{ message.url }} class="article-title"> {{ message.headline }}</a>
+
+            <time>{{ message.time }}</time>
+            <p align="justify">{{ message.text }} </p>
+
+        </div>
+        {% endfor %}
+    </div>
+</main>
+
+</body>
+</html>

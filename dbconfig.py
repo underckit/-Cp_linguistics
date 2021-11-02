@@ -1,0 +1,2 @@
+DATABASE_NAME = "v102news"
+TABLE_NAME = "news"

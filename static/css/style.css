@@ -1,0 +1,32 @@
+body {
+    width: 70%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #dbdbdba0; 
+  }
+  
+  
+  .news {
+    margin: 20px;
+    padding: 1rem;
+    border: 1px solid rgba(27,31,35,.15);
+    border-radius: 4px;
+    background-color: #ffffff;  
+    border-radius: 10px;
+  }
+  
+  .article-title {
+    font-size: 1.1rem;
+    color: rgb(131, 156, 240);
+  }
+  
+  .header{
+    padding-left: 20px;
+  }
+
+  
+  time {
+    font-size: 13px;
+    color: grey;
+  }
